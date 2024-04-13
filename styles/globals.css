@@ -1,0 +1,17 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+@import './fonts.css';
+
+:root {
+  --black: #000;
+  --white: #ffffff;
+}
+
+body {
+  background: var(--black);
+  color: var(--white);
+  font-family: Inter, sans-serif;
+
+}
+
